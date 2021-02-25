@@ -122,6 +122,8 @@ body {
     height: 3rem;
     width: 10rem;
     background-size: cover;   
+    justify-content: center;
+    align-items: center;
 }
 
 .app-download:nth-child(1) {
@@ -135,11 +137,12 @@ body {
 .slider {
     
     display: flex;
-    /* align-items: center; */
+    align-items: center;
     justify-content: center;
-    width: 35.7%;
-    height: 60%;
+    width: 35%;
     position: absolute;
+    
+    
     
 }
 
@@ -149,6 +152,7 @@ body {
     opacity: 0;
     object-fit: cover;
     transition: opacity 2000ms;
+    
 }
 
 .slider img.selected {
