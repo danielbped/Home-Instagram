@@ -134,16 +134,13 @@ body {
     background-image: url('./img/googleplay.png');
 }
 
-.slider {
-    
+.slider {  
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 35%;
+    width: 35.1%;
+    top: 50.5%;
     position: absolute;
-    
-    
-    
 }
 
 .slider img{
